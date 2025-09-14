@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { FaBars, FaTimes } from "react-icons/fa"
 
 export function Navbar() {
@@ -17,11 +18,18 @@ export function Navbar() {
 
   return (
     <header className="bg-brand-900 fixed w-full z-50 shadow-lg backdrop-blur-md">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4 h-16 md:h-20">
         {/* Logo */}
-        <div className="text-mint-500 font-bold text-2xl tracking-wide">
-          Keystone Group
-        </div>
+        <Link href="/" className="flex items-center space-x-4">
+          <div className="relative w-16 md:w-100 h-40 md:h-20">
+            <Image
+              src="/logo.png"
+              alt="Keystone Group Logo"
+              fill
+              className="object-contain rounded-full"
+            />
+          </div>
+        </Link>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8 text-neutral-100 font-medium">
@@ -58,7 +66,7 @@ export function Navbar() {
             key={link.name}
             href={link.href}
             className="block text-neutral-100 py-3 px-6 hover:text-mint-500 transition text-lg"
-            onClick={() => setIsOpen(false)} // close menu when clicked
+            onClick={() => setIsOpen(false)}
           >
             {link.name}
           </Link>
