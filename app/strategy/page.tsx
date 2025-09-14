@@ -1,11 +1,7 @@
 import Achievements from "@/components/Achievements"
 import FutureOutlook from "@/components/FutureOutlook"
 import StrategicObjectives from "@/components/StrategicObjectives"
-import {
-  strategicObjectives,
-  achievements,
-  futureOutlook,
-} from "@/lib/data"
+
 
 export default function StrategyPage() {
   return (

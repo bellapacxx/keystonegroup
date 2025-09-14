@@ -1,6 +1,6 @@
 // app/page.tsx
 import Hero from '../components/Hero'
-import Overview from '../components/Overview'
+
 import VisionMission from '../components/VisionMission'
 import CoreValues from '../components/CoreValues'
 import BusinessPhilosophy from '../components/BusinessPhilosophy'

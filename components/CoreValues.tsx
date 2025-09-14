@@ -2,20 +2,32 @@
 
 import { motion } from "framer-motion"
 import { coreValues } from "@/lib/data"
-import { FaLightbulb, FaHandshake, FaRecycle, FaStar, FaUserCheck, FaUsers, FaBalanceScale, FaSyncAlt, FaClock } from "react-icons/fa"
+import {
+  FaLightbulb,
+  FaHandshake,
+  FaRecycle,
+  FaStar,
+  FaUserCheck,
+  FaUsers,
+  FaBalanceScale,
+  FaSyncAlt,
+  FaClock,
+} from "react-icons/fa"
+import { JSX } from "react"
 
-const icons = [
-  <FaBalanceScale />,  // Integrity
-  <FaLightbulb />,     // Innovation
-  <FaUserCheck />,     // Customer-Centricity
-  <FaHandshake />,     // Collaboration
-  <FaStar />,          // Excellence
-  <FaRecycle />,       // Sustainability
-  <FaSyncAlt />,       // Accountability
-  <FaUsers />,         // Respect
-  <FaClock />,         // Adaptability
-  <FaClock />          // Long-Term Perspective
-]
+// Map core values to icons
+const iconsMap: Record<string, JSX.Element> = {
+  Integrity: <FaBalanceScale />,
+  Innovation: <FaLightbulb />,
+  "Customer-Centricity": <FaUserCheck />,
+  Collaboration: <FaHandshake />,
+  Excellence: <FaStar />,
+  Sustainability: <FaRecycle />,
+  Accountability: <FaSyncAlt />,
+  Respect: <FaUsers />,
+  Adaptability: <FaClock />,
+  "Long-Term Perspective": <FaClock />,
+}
 
 export default function CoreValues() {
   return (
@@ -38,7 +50,7 @@ export default function CoreValues() {
               whileHover={{ scale: 1.2 }}
               className="text-mint-500 text-3xl"
             >
-              {icons[i]}
+              {iconsMap[value]}
             </motion.div>
             <p className="text-neutral-100 font-medium">{value}</p>
           </div>
