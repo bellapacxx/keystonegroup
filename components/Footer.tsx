@@ -29,9 +29,9 @@ export function Footer() {
         {/* Contact Info */}
         <div>
           <h4 className="text-mint-500 font-semibold mb-2">Contact Us</h4>
-          <p>Address: Insert Physical Address</p>
+          <p>Address: AddisAbeba, kirkos, Woreda 01</p>
           <p>Phone: Insert Phone Number</p>
-          <p>Email: Insert Email Address</p>
+          <p>Email: info@keytsonegroupinvestment.com</p>
           <div className="mt-4 flex space-x-4">
             {/* Social SVGs */}
             <a href="#" className="hover:text-mint-500 transition">
