@@ -21,7 +21,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4 h-16 md:h-20">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-4">
-          <div className="relative w-80 md:w-100 h-40 md:h-20">
+          <div className="relative w-40 md:w-100 h-40 md:h-20">
             <Image
               src="/logo.png"
               alt="Keystone Group Logo"
@@ -47,7 +47,7 @@ export function Navbar() {
 
         {/* Mobile Hamburger Button */}
         <button
-          className="md:hidden text-neutral-100 text-2xl"
+          className="md:hidden text-neutral-100 text-2xl bg-brand-900"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
