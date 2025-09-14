@@ -7,11 +7,11 @@ export const companyOverview = {
   jurisdiction: "Federal Democratic Republic of Ethiopia (FDRE)",
   headquarters: "Addis Ababa, Ethiopia",
   industry: "Diversified Investments (Holding Company)",
-  website: "https://example.com",
+  website: "https://keytsonegroupinvestment.com",
   contact: {
-    address: "Insert Physical Address",
+    address: "AddisAbeba, Kirkos, Woreda 01",
     phone: "Insert Phone Number",
-    email: "Insert Email Address"
+    email: "info@keytsonegroupinvestment.com"
   }
 }
 

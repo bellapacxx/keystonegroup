@@ -8,7 +8,7 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <div className="space-y-2 text-neutral-100">
-            <p><span className="font-semibold">Address:</span> Insert Physical Address</p>
+            <p><span className="font-semibold">Address:</span>AddisAbeba, Kirkos, Woreda 01</p>
             <p><span className="font-semibold">Phone:</span> Insert Phone Number</p>
             <p><span className="font-semibold">Email:</span> Insert Email Address</p>
           </div>
