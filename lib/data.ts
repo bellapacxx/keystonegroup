@@ -67,6 +67,13 @@ export const subsidiaries = [
     ],
   },
   {
+    id: "etfunds",
+    name: "ET-Funds Micro Finance and Insurance Co.",
+    focus:
+      "Providing financial and insurance solutions to the group and beyond",
+    services: ["Lease Financing", "Credit Management", "Insurance Services"],
+  },
+  {
     id: "pal",
     name: "PAL Trading PLC",
     focus: "Digital Media and Advertising products and services",
