@@ -12,7 +12,7 @@ export default function Hero() {
           Keystone Group Investment
         </h1>
         <p className="text-xl md:text-2xl text-neutral-100 mb-6 max-w-2xl mx-auto">
-          Driving sustainable growth across transportation, finance, consultancy, and real estate in Ethiopia and beyond.
+         Driving sustainable growth in power banking, rare earth metals for AI, decentralized finance and real estate development in Ethiopia and beyond.
         </p>
         <a
           href="/about"

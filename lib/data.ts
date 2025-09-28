@@ -15,30 +15,30 @@ export const companyOverview = {
   }
 }
 
-export const vision = "To pioneer innovative solutions in transportation, finance, consultancy, and real estate, driving sustainable growth and enhancing lifestyles."
+export const vision = "To lead the transformation of key sectors in Ethiopia and beyond, driving sustainable growth through innovative solutions in power banking, rare earth metals for AI, decentralized finance, and real estate development. We envision a future where these interconnected industries empower communities, foster economic prosperity, and create a more resilient and equitable world."
 
-export const mission = "To empower our group companies to achieve excellence and innovation, enabling them to thrive in their respective industries while contributing to Ethiopia's economic transformation."
+export const mission = "To empower our group companies to achieve excellence and innovation in solving economic,social & environmental problems, enabling them to thrive in their respective industries while contributing to Ethiopia's economic transformation."
 
 export const coreValues = [
-  "Integrity",
+  "Balance",
   "Innovation",
   "Customer-Centricity",
   "Collaboration",
   "Excellence",
   "Sustainability",
   "Accountability",
-  "Respect",
-  "Adaptability",
+  "Synergy",
+  "Integrity",
   "Long-Term Perspective"
 ]
 
-export const businessPhilosophy = "At Keystone Group, our business philosophy revolves around the belief that success is achieved through a harmonious blend of innovation, integrity, and collaboration. We are committed to creating value for our stakeholders while driving sustainable development in Ethiopia and beyond."
+export const businessPhilosophy = "At Keystone Group, our business philosophy revolves around the belief that success is achieved through a harmonious blend of trade analysis innovation, integrity, and collaboration. We are committed to creating value for our stakeholders while driving sustainable development in Ethiopia and beyond."
 
 export const subsidiaries = [
   {
     id: "fintech",
     name: "Fintech Investment PLC",
-    focus: "Transforming Ethiopia's transportation system through BYD EVs and spare parts",
+    focus: "Contributing to ethiopian transition to green transport system & green legacy initiative, By generating hard currency from its exports",
     operations: [
       "EV Assembly Center",
       "Maintenance Center",
@@ -55,7 +55,7 @@ export const subsidiaries = [
   {
     id: "dasoma",
     name: "Dasoma Trading PLC",
-    focus: "Import and assembly of GAC-Aion Electric Vehicles and four-wheeler electric motorcycles",
+    focus: "Import and assembly of GAC-Aion Electric Vehicles and four-wheeler electric motorcycles, In addition event organizing and management,Logistics services",
     operations: [
       "Digital Lottery (awarding houses, EVs, furniture, TVs, washing machines, ovens)",
       "Online Sports Betting"
@@ -64,7 +64,7 @@ export const subsidiaries = [
   {
     id: "etfunds",
     name: "ET-Funds Micro Finance and Insurance Co.",
-    focus: "Providing financial and insurance solutions",
+    focus: "Providing financial and insurance solutions to the group and beyond",
     services: [
       "Lease Financing",
       "Credit Management",
@@ -74,7 +74,7 @@ export const subsidiaries = [
   {
     id: "pal",
     name: "PAL Trading PLC",
-    focus: "Media and digital production",
+    focus: "Digital Media and Advertising products and services",
     operations: [
       "Video Shooting",
       "Digital Productions",
@@ -82,16 +82,7 @@ export const subsidiaries = [
       "Social Media Management"
     ]
   },
-  {
-    id: "fotizo",
-    name: "Fotizo Logistics PLC",
-    focus: "Supply chain management between China and Ethiopia",
-    services: [
-      "Packing",
-      "Transport",
-      "Warehousing"
-    ]
-  },
+  
   {
     id: "afro-china",
     name: "Afro-China Exim Co. Ltd",

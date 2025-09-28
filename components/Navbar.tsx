@@ -1,12 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Link from "next/link"
-import Image from "next/image"
-import { FaBars, FaTimes } from "react-icons/fa"
-
+import { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Poppins } from "next/font/google";
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"], // optional
+});
 export function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const links = [
     { name: "Home", href: "/" },
@@ -14,7 +18,7 @@ export function Navbar() {
     { name: "Subsidiaries", href: "/subsidiaries" },
     { name: "Strategy", href: "/strategy" },
     { name: "Contact", href: "/contact" },
-  ]
+  ];
 
   return (
     <header className="bg-brand-900 fixed w-full z-50 shadow-lg backdrop-blur-md">
@@ -29,6 +33,11 @@ export function Navbar() {
               className="object-contain rounded-full"
             />
           </div>
+          <span
+            className={`${poppins.className} text-sm md:text-base font-semibold text-neutral-100 tracking-wide`}
+          >
+            Unlocking The Potential
+          </span>
         </Link>
 
         {/* Desktop Menu */}
@@ -73,5 +82,5 @@ export function Navbar() {
         ))}
       </div>
     </header>
-  )
+  );
 }
